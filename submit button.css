@@ -1,0 +1,21 @@
+ body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0%;
+  background-color: #f0f0f0;
+ }
+ .me{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 6px 12px;
+  border-width: auto;
+  border-color: rgb(35, 35, 161);
+  border-radius: 15px;
+  font-size: 16px;
+  background-color:rgb(35, 35, 161);
+  font-weight: bold;
+  color: aliceblue;
+
+ }
