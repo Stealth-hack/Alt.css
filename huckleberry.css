@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #666666;
+    color: #000;
+    min-height: 100vh;
+    padding: 5% 10%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-section {
+    background: white;
+    padding: 40px;
+    margin-bottom: 40px;
+    border: 2px solid #ffbb00;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.highlight-green {
+    color: #00b341;
+    font-weight: 500;
+}
+
+.secondary-text {
+    font-size: 1.5rem;
+}
+
+.content-box {
+    background: white;
+    padding: 40px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.yellow-header {
+    background: #ffbb00;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    box-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.2),
+        4px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.yellow-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content-text {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    margin-top: 80px;
+}
+
+.content-text:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) 
+    body {
+        padding: 5%;
+    }
+
+    .header-section {
+        padding: 20px;
+    }
+
+    .content-box {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .yellow-header {
+        padding: 15px 20px;
+        left: -10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .tagline,
+    .secondary-text {
+        font-size: 1.25rem;
+    }
+
+    .content-text {
+        font-size: 1.1rem;
+        margin-top: 70px;
+    }
