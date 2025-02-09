@@ -1,3 +1,136 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fcfc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.account-btn {
+    background: none;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Checkout Container */
+.checkout-container {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkout Form */
+.checkout-form {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.checkout-form h2 {
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buy Button */
+.buy-btn {
+    background-color: #007b5e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pricing Box */
+.pricing-box {
+    flex: 1;
+    background: #005fa3;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.pricing-box h3 {
+    font-size: 1.5em;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.price span {
+    font-size: 0.7em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;}
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -129,4 +262,5 @@ ul li {
 footer {
     margin-top: 20px;
     font-size: 0.8em;
+
 }
